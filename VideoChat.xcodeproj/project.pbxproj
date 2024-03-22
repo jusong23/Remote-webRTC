@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		181628DD2BAD7C7400FCC22F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 181628DC2BAD7C7400FCC22F /* GoogleService-Info.plist */; };
 		6301B150292CA5F400D38EE2 /* FirebaseKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6301B14F292CA5F400D38EE2 /* FirebaseKeys.swift */; };
 		6328FB2D292B51E600441757 /* WebRTCClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6328FB2C292B51E600441757 /* WebRTCClient.swift */; };
 		6328FB2F292B51F100441757 /* SignalingClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6328FB2E292B51F100441757 /* SignalingClient.swift */; };
@@ -21,9 +22,6 @@
 		63434E3A29291D3B0025E289 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 63434E3929291D3B0025E289 /* FirebaseFirestore */; };
 		63434E3C29291D3B0025E289 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 63434E3B29291D3B0025E289 /* FirebaseFirestoreSwift */; };
 		635D3C142937291A00C9479F /* RtcVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635D3C132937291A00C9479F /* RtcVideoView.swift */; };
-		6374B70F2ABC9A7000045E20 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6374B70E2ABC9A7000045E20 /* GoogleService-Info.plist */; };
-		6374B7102ABC9A7000045E20 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6374B70E2ABC9A7000045E20 /* GoogleService-Info.plist */; };
-		6374B7112ABC9A7000045E20 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6374B70E2ABC9A7000045E20 /* GoogleService-Info.plist */; };
 		638FE5122B4FC93B002E6896 /* WebRTC in Frameworks */ = {isa = PBXBuildFile; productRef = 638FE5112B4FC93B002E6896 /* WebRTC */; };
 		639D2413293487300086CAE8 /* ParticipantViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639D2412293487300086CAE8 /* ParticipantViewModel.swift */; };
 		63A249D5292F4577009EE080 /* WebRTCManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A249D4292F4577009EE080 /* WebRTCManager.swift */; };
@@ -59,6 +57,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		181628DC2BAD7C7400FCC22F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6301B14F292CA5F400D38EE2 /* FirebaseKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseKeys.swift; sourceTree = "<group>"; };
 		6328FB2C292B51E600441757 /* WebRTCClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebRTCClient.swift; sourceTree = "<group>"; };
 		6328FB2E292B51F100441757 /* SignalingClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignalingClient.swift; sourceTree = "<group>"; };
@@ -68,7 +67,6 @@
 		63434E2D292913100025E289 /* VideoChatRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoChatRepository.swift; sourceTree = "<group>"; };
 		63434E30292918A00025E289 /* ChatRoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoom.swift; sourceTree = "<group>"; };
 		635D3C132937291A00C9479F /* RtcVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RtcVideoView.swift; sourceTree = "<group>"; };
-		6374B70E2ABC9A7000045E20 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		639D2412293487300086CAE8 /* ParticipantViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantViewModel.swift; sourceTree = "<group>"; };
 		63A249D4292F4577009EE080 /* WebRTCManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebRTCManager.swift; sourceTree = "<group>"; };
 		63A5D62729388C90003D33E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -166,7 +164,7 @@
 		63DF6FE529220F44003DC985 /* VideoChat */ = {
 			isa = PBXGroup;
 			children = (
-				6374B70E2ABC9A7000045E20 /* GoogleService-Info.plist */,
+				181628DC2BAD7C7400FCC22F /* GoogleService-Info.plist */,
 				63A5D62729388C90003D33E9 /* Info.plist */,
 				6328FB2B292B51B300441757 /* WebRTC */,
 				63434E2F292914220025E289 /* Data */,
@@ -330,7 +328,7 @@
 			files = (
 				63DF6FEE29220F44003DC985 /* Preview Assets.xcassets in Resources */,
 				63DF6FEB29220F44003DC985 /* Assets.xcassets in Resources */,
-				6374B70F2ABC9A7000045E20 /* GoogleService-Info.plist in Resources */,
+				181628DD2BAD7C7400FCC22F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,7 +336,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6374B7102ABC9A7000045E20 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,7 +343,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6374B7112ABC9A7000045E20 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -532,7 +528,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"VideoChat/Preview Content\"";
-				DEVELOPMENT_TEAM = SRX8EYEP5K;
+				DEVELOPMENT_TEAM = 9LAFQ24GSN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = VideoChat/Info.plist;
@@ -548,7 +544,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = grzegorz.baczek.VideoChat;
+				PRODUCT_BUNDLE_IDENTIFIER = com.soey.VideoChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -564,7 +560,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"VideoChat/Preview Content\"";
-				DEVELOPMENT_TEAM = SRX8EYEP5K;
+				DEVELOPMENT_TEAM = 9LAFQ24GSN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = VideoChat/Info.plist;
@@ -580,7 +576,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = grzegorz.baczek.VideoChat;
+				PRODUCT_BUNDLE_IDENTIFIER = com.soey.VideoChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
