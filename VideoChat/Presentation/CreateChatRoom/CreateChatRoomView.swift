@@ -8,14 +8,6 @@
 import Foundation
 import SwiftUI
 
-class CreateChatRoomViewModel: ObservableObject {
-    private let videoChatRepository = VideoChatRepository()
-    
-    func createChatRoom(chatRoomName: String) async throws -> String {
-        try await videoChatRepository.createChatRoom(chatRoomName: chatRoomName)
-    }
-}
-
 struct CreateChatRoomView: View {
     
     @State var chatRoomName: String = ""

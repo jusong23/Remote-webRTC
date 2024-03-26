@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		181628DD2BAD7C7400FCC22F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 181628DC2BAD7C7400FCC22F /* GoogleService-Info.plist */; };
+		1856F2C12BB299EE007F97DD /* JoinChatRoomViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1856F2C02BB299EE007F97DD /* JoinChatRoomViewModel.swift */; };
+		1856F2C32BB29A03007F97DD /* CreateChatRoomViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1856F2C22BB29A03007F97DD /* CreateChatRoomViewModel.swift */; };
 		6301B150292CA5F400D38EE2 /* FirebaseKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6301B14F292CA5F400D38EE2 /* FirebaseKeys.swift */; };
 		6328FB2D292B51E600441757 /* WebRTCClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6328FB2C292B51E600441757 /* WebRTCClient.swift */; };
 		6328FB2F292B51F100441757 /* SignalingClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6328FB2E292B51F100441757 /* SignalingClient.swift */; };
@@ -26,7 +28,7 @@
 		639D2413293487300086CAE8 /* ParticipantViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639D2412293487300086CAE8 /* ParticipantViewModel.swift */; };
 		63A249D5292F4577009EE080 /* WebRTCManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A249D4292F4577009EE080 /* WebRTCManager.swift */; };
 		63D24772293B7A5F0000D967 /* PickParticipantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D24771293B7A5F0000D967 /* PickParticipantView.swift */; };
-		63DF6FE729220F44003DC985 /* VideoChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DF6FE629220F44003DC985 /* VideoChatApp.swift */; };
+		63DF6FE729220F44003DC985 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DF6FE629220F44003DC985 /* AppDelegate.swift */; };
 		63DF6FE929220F44003DC985 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DF6FE829220F44003DC985 /* ContentView.swift */; };
 		63DF6FEB29220F44003DC985 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63DF6FEA29220F44003DC985 /* Assets.xcassets */; };
 		63DF6FEE29220F44003DC985 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63DF6FED29220F44003DC985 /* Preview Assets.xcassets */; };
@@ -58,6 +60,8 @@
 
 /* Begin PBXFileReference section */
 		181628DC2BAD7C7400FCC22F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1856F2C02BB299EE007F97DD /* JoinChatRoomViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinChatRoomViewModel.swift; sourceTree = "<group>"; };
+		1856F2C22BB29A03007F97DD /* CreateChatRoomViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateChatRoomViewModel.swift; sourceTree = "<group>"; };
 		6301B14F292CA5F400D38EE2 /* FirebaseKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseKeys.swift; sourceTree = "<group>"; };
 		6328FB2C292B51E600441757 /* WebRTCClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebRTCClient.swift; sourceTree = "<group>"; };
 		6328FB2E292B51F100441757 /* SignalingClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignalingClient.swift; sourceTree = "<group>"; };
@@ -69,10 +73,10 @@
 		635D3C132937291A00C9479F /* RtcVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RtcVideoView.swift; sourceTree = "<group>"; };
 		639D2412293487300086CAE8 /* ParticipantViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantViewModel.swift; sourceTree = "<group>"; };
 		63A249D4292F4577009EE080 /* WebRTCManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebRTCManager.swift; sourceTree = "<group>"; };
-		63A5D62729388C90003D33E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		63A5D62729388C90003D33E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63D24771293B7A5F0000D967 /* PickParticipantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickParticipantView.swift; sourceTree = "<group>"; };
 		63DF6FE329220F44003DC985 /* VideoChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		63DF6FE629220F44003DC985 /* VideoChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoChatApp.swift; sourceTree = "<group>"; };
+		63DF6FE629220F44003DC985 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63DF6FE829220F44003DC985 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		63DF6FEA29220F44003DC985 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63DF6FED29220F44003DC985 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -118,15 +122,162 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1856F2B72BB298E8007F97DD /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				63DF6FE829220F44003DC985 /* ContentView.swift */,
+				1856F2BD2BB2996C007F97DD /* RtcParticipant */,
+				1856F2BC2BB29962007F97DD /* RtcVideo */,
+				1856F2BB2BB29948007F97DD /* Participant */,
+				1856F2BA2BB2992D007F97DD /* JoinChatRoom */,
+				1856F2B92BB29916007F97DD /* CreateChatRoom */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		1856F2B82BB298F6007F97DD /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				1856F2C42BB29AEF007F97DD /* Entities */,
+				1856F2C52BB29AF8007F97DD /* Interfaces */,
+				1856F2C62BB29AFF007F97DD /* UseCases */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		1856F2B92BB29916007F97DD /* CreateChatRoom */ = {
+			isa = PBXGroup;
+			children = (
+				63F22DAE292A591A005BE0A2 /* CreateChatRoomView.swift */,
+				1856F2C22BB29A03007F97DD /* CreateChatRoomViewModel.swift */,
+			);
+			path = CreateChatRoom;
+			sourceTree = "<group>";
+		};
+		1856F2BA2BB2992D007F97DD /* JoinChatRoom */ = {
+			isa = PBXGroup;
+			children = (
+				63F22DB0292A5983005BE0A2 /* JoinChatRoomView.swift */,
+				1856F2C02BB299EE007F97DD /* JoinChatRoomViewModel.swift */,
+			);
+			path = JoinChatRoom;
+			sourceTree = "<group>";
+		};
+		1856F2BB2BB29948007F97DD /* Participant */ = {
+			isa = PBXGroup;
+			children = (
+				63F22DB6292AB20C005BE0A2 /* ParticipantView.swift */,
+				639D2412293487300086CAE8 /* ParticipantViewModel.swift */,
+			);
+			path = Participant;
+			sourceTree = "<group>";
+		};
+		1856F2BC2BB29962007F97DD /* RtcVideo */ = {
+			isa = PBXGroup;
+			children = (
+				635D3C132937291A00C9479F /* RtcVideoView.swift */,
+			);
+			path = RtcVideo;
+			sourceTree = "<group>";
+		};
+		1856F2BD2BB2996C007F97DD /* RtcParticipant */ = {
+			isa = PBXGroup;
+			children = (
+				63D24771293B7A5F0000D967 /* PickParticipantView.swift */,
+			);
+			path = RtcParticipant;
+			sourceTree = "<group>";
+		};
+		1856F2BE2BB29992007F97DD /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				63DF6FE629220F44003DC985 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		1856F2BF2BB299B1007F97DD /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				63DF6FEA29220F44003DC985 /* Assets.xcassets */,
+				181628DC2BAD7C7400FCC22F /* GoogleService-Info.plist */,
+				63A5D62729388C90003D33E9 /* Info.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		1856F2C42BB29AEF007F97DD /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				63434E30292918A00025E289 /* ChatRoom.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		1856F2C52BB29AF8007F97DD /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				1856F2C72BB29B2C007F97DD /* Repository */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		1856F2C62BB29AFF007F97DD /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		1856F2C72BB29B2C007F97DD /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				63434E2D292913100025E289 /* VideoChatRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		1856F2C82BB29B45007F97DD /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				6301B14F292CA5F400D38EE2 /* FirebaseKeys.swift */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		1856F2C92BB29D3D007F97DD /* Signalling */ = {
+			isa = PBXGroup;
+			children = (
+				6328FB2E292B51F100441757 /* SignalingClient.swift */,
+				6328FB32292B545C00441757 /* SessionDescription.swift */,
+				6328FB34292B546500441757 /* IceCandidate.swift */,
+			);
+			path = Signalling;
+			sourceTree = "<group>";
+		};
+		1856F2CA2BB29D57007F97DD /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				6328FB30292B542B00441757 /* Config.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		1856F2CB2BB29D98007F97DD /* P2P */ = {
+			isa = PBXGroup;
+			children = (
+				6328FB2C292B51E600441757 /* WebRTCClient.swift */,
+				63A249D4292F4577009EE080 /* WebRTCManager.swift */,
+			);
+			path = P2P;
+			sourceTree = "<group>";
+		};
 		6328FB2B292B51B300441757 /* WebRTC */ = {
 			isa = PBXGroup;
 			children = (
-				63A249D4292F4577009EE080 /* WebRTCManager.swift */,
-				6328FB30292B542B00441757 /* Config.swift */,
-				6328FB32292B545C00441757 /* SessionDescription.swift */,
-				6328FB2E292B51F100441757 /* SignalingClient.swift */,
-				6328FB34292B546500441757 /* IceCandidate.swift */,
-				6328FB2C292B51E600441757 /* WebRTCClient.swift */,
+				1856F2CA2BB29D57007F97DD /* Config */,
+				1856F2C92BB29D3D007F97DD /* Signalling */,
+				1856F2CB2BB29D98007F97DD /* P2P */,
 			);
 			path = WebRTC;
 			sourceTree = "<group>";
@@ -134,9 +285,8 @@
 		63434E2F292914220025E289 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				63434E2D292913100025E289 /* VideoChatRepository.swift */,
-				63434E30292918A00025E289 /* ChatRoom.swift */,
-				6301B14F292CA5F400D38EE2 /* FirebaseKeys.swift */,
+				1856F2C82BB29B45007F97DD /* Firebase */,
+				6328FB2B292B51B300441757 /* WebRTC */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -164,20 +314,12 @@
 		63DF6FE529220F44003DC985 /* VideoChat */ = {
 			isa = PBXGroup;
 			children = (
-				181628DC2BAD7C7400FCC22F /* GoogleService-Info.plist */,
-				63A5D62729388C90003D33E9 /* Info.plist */,
-				6328FB2B292B51B300441757 /* WebRTC */,
+				1856F2BE2BB29992007F97DD /* Application */,
 				63434E2F292914220025E289 /* Data */,
-				63DF6FE629220F44003DC985 /* VideoChatApp.swift */,
-				63DF6FE829220F44003DC985 /* ContentView.swift */,
-				63DF6FEA29220F44003DC985 /* Assets.xcassets */,
+				1856F2B82BB298F6007F97DD /* Domain */,
+				1856F2B72BB298E8007F97DD /* Presentation */,
 				63DF6FEC29220F44003DC985 /* Preview Content */,
-				63F22DAE292A591A005BE0A2 /* CreateChatRoomView.swift */,
-				63F22DB0292A5983005BE0A2 /* JoinChatRoomView.swift */,
-				63F22DB6292AB20C005BE0A2 /* ParticipantView.swift */,
-				639D2412293487300086CAE8 /* ParticipantViewModel.swift */,
-				635D3C132937291A00C9479F /* RtcVideoView.swift */,
-				63D24771293B7A5F0000D967 /* PickParticipantView.swift */,
+				1856F2BF2BB299B1007F97DD /* Resource */,
 			);
 			path = VideoChat;
 			sourceTree = "<group>";
@@ -358,7 +500,7 @@
 				63DF6FE929220F44003DC985 /* ContentView.swift in Sources */,
 				6328FB2F292B51F100441757 /* SignalingClient.swift in Sources */,
 				6328FB35292B546500441757 /* IceCandidate.swift in Sources */,
-				63DF6FE729220F44003DC985 /* VideoChatApp.swift in Sources */,
+				63DF6FE729220F44003DC985 /* AppDelegate.swift in Sources */,
 				6328FB31292B542B00441757 /* Config.swift in Sources */,
 				6301B150292CA5F400D38EE2 /* FirebaseKeys.swift in Sources */,
 				63F22DAF292A591A005BE0A2 /* CreateChatRoomView.swift in Sources */,
@@ -367,7 +509,9 @@
 				63D24772293B7A5F0000D967 /* PickParticipantView.swift in Sources */,
 				6328FB33292B545C00441757 /* SessionDescription.swift in Sources */,
 				63434E31292918A00025E289 /* ChatRoom.swift in Sources */,
+				1856F2C32BB29A03007F97DD /* CreateChatRoomViewModel.swift in Sources */,
 				63F22DB7292AB20C005BE0A2 /* ParticipantView.swift in Sources */,
+				1856F2C12BB299EE007F97DD /* JoinChatRoomViewModel.swift in Sources */,
 				63434E2E292913100025E289 /* VideoChatRepository.swift in Sources */,
 				63A249D5292F4577009EE080 /* WebRTCManager.swift in Sources */,
 			);
@@ -531,7 +675,7 @@
 				DEVELOPMENT_TEAM = 9LAFQ24GSN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = VideoChat/Info.plist;
+				INFOPLIST_FILE = /Users/jusong/Documents/iOS_WebRTC_VideoChat/VideoChat/Resource/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Need camera access";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Need microphone access";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -563,7 +707,7 @@
 				DEVELOPMENT_TEAM = 9LAFQ24GSN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = VideoChat/Info.plist;
+				INFOPLIST_FILE = /Users/jusong/Documents/iOS_WebRTC_VideoChat/VideoChat/Resource/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Need camera access";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Need microphone access";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
